@@ -18,13 +18,22 @@ private:
 
 public:
     // Add value in Tree
-    void push(Type value);
+    void push(Type value) {
+        // ...
+    }
 
-    void pop(unsigned long long index);
+    // ...
+    void pop(unsigned long long index) {
+        // ...
+    }
     
     // Print in output file
-    void print(std::ofstream&writeFile);
+    void print(std::ofstream&writeFile) {
+        // ...
+    }
 
     // Print in console
-    void print();
+    void print() {
+        // ...
+    }
 };
